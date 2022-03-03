@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinamica e adição de audio</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes
+        ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/moto-p.jpg" type="image/jpg"><!--tamanho pequeno da imagem-->
+        <source media="(max-width: 1050px)" srcset="imagens/moto-m.jpg" type="image/jpg"><!--tamanho medio da imagem-->
+        <img src="imagens/moto-g.jpg" alt="imagem flexivel"> <!--tamanho grande "original" da imagem-->
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduziz audio em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop><!--autoplay reproduz audio automaticamente, controls aparece o controle de audio, loop repetição do audio-->
+        <!--mpeg, ogg, wav sao o tipos que suportam audio nos navegadores-->
+        <source src="midia/Tropic Fuse - French Fuse.mp3" type="audio/mpeg">
+        <source src="midia/Tropic Fuse - French Fuse.mp3" type="audio/ogg">
+        <source src="midia/Tropic Fuse - French Fuse.mp3" type="audio/wav">
+        <!--caso nao reconheça nenhum tipo acima exiba a mensagem abaixo-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio <a href="midia/Tropic Fuse - French Fuse.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>

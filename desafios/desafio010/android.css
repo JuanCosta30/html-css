@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(178, 245, 178);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, green, rgb(1, 87, 1));
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+}
+.cabecalho{
+    text-align: center;
+    margin-top:32px;
+    font-size: 1.3em;
+}
+.cabecalho > p{
+   margin-top:9px;
+   font-size: 0.8em;
+}
+nav{
+   margin-top: 36px;
+}
+.menu{
+    margin-left: 250px;
+   
+}
+.menu > a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 25px;
+   
+}
+.menu > a:hover{
+    background-color: rgba(127, 255, 212, 0.199);
+    width: 15px;
+    height: 50px;
+    padding: 7px;
+    border-radius: 5px;
+}
+main{
+    background-color: white;
+    width: 850px;
+    margin: auto;
+    align-items: center;   
+    padding: 15px;
+}
+article{
+    text-align: center;  
+}
+
+article > h1{
+    font-size: 1.6em;
+    text-align: left;
+    padding: 6px;
+    margin-top: 10px;
+}
+article > h2{
+    background-image: linear-gradient(to right, rgb(120, 190, 120), rgba(179, 219, 179, 0.014));
+    text-indent: 10px;
+    margin-top:15px;
+    text-align: left;
+}
+article > p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 15px;
+} 
+section{
+    background-color: rgb(207, 233, 207);
+    width: 650px;
+    margin: auto;
+    border-radius: 9px;
+    text-align: left;   
+}
+#multimidia{
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(88, 141, 88);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+       
+}
+section > h4{
+    background-color: rgb(88, 141, 88);
+    height: 30px;
+    border-radius: 9px 9px 0px 0px;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+section > p{
+    padding:5px;
+    text-indent: 15px;    
+    padding-bottom: 20px;
+    padding: 10px;
+}
+.tabela1{
+    margin-left: 10px;
+    
+}
+.tabela2{
+    margin-left: 280px;
+    margin-top: -127px;
+    
+}
+li{
+    list-style: none;
+}
+footer{
+    background-color: green;
+    color: white;
+    height: 25px;
+    text-align: center; 
+    margin-top: 15px;
+    padding-top: 6px;
+    font-size: 0.8em;
+}
